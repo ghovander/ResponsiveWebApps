@@ -36,6 +36,9 @@ h2 {
 
 #author-text{
     font-size: 22px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px; 
 }
 
 .container{
@@ -44,22 +47,40 @@ h2 {
 }
 
 .blog-post{
-    background: #0000ff;
     width: 75%;
     float: left;
     padding-right: 30px;
-    
+    position: relative;
+}
+
+.blog-post img{
+    height: 150px;
+    width: auto;
 }
 
 .other-posts{
-    background:#00ff00;
     width:25%;
     float: left;
 }
 
+.other{
+    margin-bottom:40px;
+}
+
 .author-box{
-    background:#ffff00;
     border-top:1px solid #333;
     padding: 20px;
 }
 
+.author-box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+.date{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
